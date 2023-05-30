@@ -1,0 +1,11 @@
+# This is a basic workflow to help you get started with Actions
+
+name: 
+on: workflow_dispach 
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    steps:
+      -name: Print to console 
+        run: echo Hello GitHub Actions
+        

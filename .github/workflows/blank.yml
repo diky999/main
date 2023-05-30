@@ -4,7 +4,7 @@ name: Demo
 on: workflow_dispach 
 jobs:
   print:
-    runs-on: ubuntu-latest
+    runs-on: debian-latest
     steps:
       - name: Print to console 
         run: echo Hello GitHub Actions
